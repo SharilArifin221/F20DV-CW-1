@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src='https://d3js.org/d3.v7.min.js'></script>
+</head>
+
+<body>
+
+    <script>
+        console.log('d3.version:', d3.version); //telling us to show the version date of D3
+    </script>
+</body>
+
+</html>
