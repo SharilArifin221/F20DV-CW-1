@@ -1,0 +1,20 @@
+<script src='https://d3js.org/d3.v7.min.js'></script>
+
+<script>
+    // let shape = 'Shapes.csv';
+    d3.csv('Shapes.csv', function(data) {
+        if (data.shape) { //Calls all the field in the shape file of the shape I want to draw and its properties in HTML
+            /* d3.select("body")
+                 .append("svg")
+                 .style("border", "2px solid black")
+                 .attr("width", "100%")
+                 .attr("height", "100%")
+                 .append(data.shape)
+                 .attr("cx", data.x1)
+                 .attr("cy", data.y1)
+                 .attr("r", data.radius)
+                 .attr("fill", data.fill)
+                 .attr("stroke", data.stroke)*/
+        }
+    })
+</script>
